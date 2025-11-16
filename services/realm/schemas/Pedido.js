@@ -5,7 +5,7 @@ export const PedidoSchema = {
     id: "string",
     mesa: "string",
     itens: "ItemPedido[]",
-    status: "string", // aberto | fechado | sincronizado
+    status: "string",
     createdAt: "date",
     updatedAt: "date",
     lastSync: "date?",

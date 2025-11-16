@@ -1,11 +1,7 @@
 import { View, Text, FlatList, Pressable } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useState } from "react";
-import {
-  buscarPedido,
-  removerItem,
-  fecharPedido,
-} from "../../../services/realm/realmService";
+import { buscarPedido, removerItem, fecharPedido } from "../../../realmService";
 
 export default function Comanda() {
   const { id } = useLocalSearchParams();
